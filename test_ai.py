@@ -1,7 +1,7 @@
 # test_ai.py - Copyright 2023 Okunarium Labs
 # Basic driver script for testing out ai modules.
 
-from ai.openai_chatgpt import OpenAI_ChatGPT as AI_Engine
+from ai.openai_chatgpt import OpenAIChatGPT as AI_Engine
 import os.path
 import time
 

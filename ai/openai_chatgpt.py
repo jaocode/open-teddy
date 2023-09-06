@@ -8,7 +8,7 @@ import time
 
 import util.api_key as api_key # Util that loads an API key from a file.
 
-class OpenAI_ChatGPT:
+class OpenAIChatGPT:
 
     # init OpenAI API for personality
     def __init__(self, prompt) -> None:
