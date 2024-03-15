@@ -24,7 +24,7 @@ def speak(text, TTS):
 if __name__ == '__main__':
     
     # See tts_factory.py file for available options.  
-    TTS = tts.tts_factory.use_elevenlabs()
+    TTS = tts.tts_factory.use_gtts()
 
     go = True
     while go:

@@ -24,7 +24,7 @@ if __name__ == '__main__':
     prompt = "The following is a conversation with Teddy Ruxpin. He is funny, creative, clever, and sarcastic at times. Sometimes he will tell stories about his old friends. He likes meeting people and making new friends."
     
     # See tts_factory.py file for available options. 
-    TTS = tts_factory.use_elevenlabs()
+    TTS = tts_factory.use_coqui()
     AI = AI_Engine(prompt=prompt)
 
     go = True
